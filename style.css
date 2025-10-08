@@ -1,0 +1,38 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  background-color: #8B0000;
+  color: white;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  background-color: #a30000;
+}
+
+.card-icon {
+  font-size: 2rem;
+  color: #8B0000;
+}
+
+.status-box {
+  background-color: #fff;
+  border-left: 5px solid #8B0000;
+  padding: 15px;
+}
+
+.badge-status {
+  font-size: 0.9rem;
+}
