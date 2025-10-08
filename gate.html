@@ -100,7 +100,7 @@
     function manualAccess() {
       const studentId = document.getElementById("manualId").value;
 
-      fetch("http://localhost:5000/api/manual-access", {
+      fetch("https://smartgate-backend.onrender.com/api/manual-access",{
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ student_id: studentId })
@@ -126,3 +126,4 @@
   </script>
 </body>
 </html>
+
